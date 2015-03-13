@@ -1,0 +1,117 @@
+html { 
+	background: url(blurred-background-05.jpg) no-repeat center center fixed;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	max-width: 100%;
+}
+body {
+	color: white;
+}
+div {}
+p {}
+.navigation-bar, .non-navigation-bar {
+	background-color: rgba(200,200,200,0.2);
+	height: 120%;
+	width: 15%;
+	position: absolute;
+	top: 0px;
+}
+.navigation-bar {
+	left: 0px;
+}
+.non-navigation-bar {
+	right: 0px;
+}
+.navigation-bar ul {
+	padding: 1px;
+	position:relative;
+	list-style-type:none;
+}
+.navigation-bar li {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.navigation-image {
+	position: relative;
+	width:100%;
+	left: 0%;
+	top: 0%;
+}
+li a {
+	display: block;
+}
+.button {
+  font: 15px Arial;
+  text-decoration: none;
+  background-color: rgba(50,50,170,0.8);
+  color: #ffffff;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid rgba(20,20,100,0.8);
+  border-right: 1px solid rgba(50,50,170,1.0);
+  border-bottom: 1px solid rgba(50,50,170,1.0);
+  border-left: 1px solid rgba(20,20,100,0.8);
+}
+.button:hover {
+	background-color: rgba(80,80,200,0.9);
+}
+.main-page-header {
+	text-align:center;
+	color: #cccccc;
+	font-size: 30pt;
+}
+.main-page-content {
+	top: 20%;
+	left: 20%;
+	position: relative;
+	max-width: 70%;
+}
+.pdf-viewer {
+	position: relative;
+	width: 66%;
+	height: 100%;
+	left: 17%;
+}
+.random-table {
+	left: 30%;
+	position: relative;
+	width: 30%;
+	color: white;	
+}
+table, td, th {
+	border: 1px solid #aaaaaa;
+	border-collapse: collapse;
+	padding: 5px;
+	text-align: center;
+	color: #eeeeee;
+}
+table {
+	border: 2px solid #aaaaaa;
+}
+th {
+	font-weight: bold;
+	border-bottom: 2px solid #aaaaaa;
+}
+textarea {
+	resize: none;
+}
+#weather {
+	position:relative;
+	left:25%
+}
+.suggestions-form {
+	max-width: 50%;
+	position: relative;
+}
+.weather-form {
+	max-width: 50%;
+	position: relative;
+	left: 25%;	
+}
+.city-list {
+	cursor: pointer;
+}
+.city-list:hover {
+  color: darkblue;
+}

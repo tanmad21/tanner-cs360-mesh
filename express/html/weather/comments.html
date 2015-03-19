@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type='image/x-icon' href="favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="weather_theme.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<title>Tanner's 360 Website</title>
+</head>
+<body>
+
+<div class='navigation-bar'>
+
+<a href='weather.html'>
+	<img class='navigation-image' src='360Logo.png' alt="Tanner's Weather Logo"/>
+</a>
+
+<ul>
+	<li>
+	<a class='button' href='comments.html'>Comments</a>
+	</li>
+	<li>
+	<a class='button' href='current_weather.html'>Current Weather</a>
+	</li>
+	<li>
+	<a class='button' href='resume.html'>Resume</a>
+	</li>
+	<li>
+	<a class='button' href='random_info.html'>Random Information</a>
+	</li>
+</ul>
+</div>
+<div class='non-navigation-bar'>
+</div>
+  <h2 class='main-page-header'>Comments</h2>
+  <form id="comments-form" action="" class="weather-form">
+    <div>
+      <label for="comment-name">Name: </label>
+      <input type="text" id="comment-name"/>
+    </div>
+    <div>
+      <label for="comment-comment">Comment: </label>
+      <input type="text" id="comment-comment"/>
+    </div>
+    <input type="submit" value="Comment" id="comment-submit"/>
+    <input type='button' id='get-comments' value='Show Comments'/><br>
+    <div id="json-to-send">
+    </div>
+    <div id="done"></div>
+  </form>
+  <div class='weather-form'>
+    <br><hr><br>
+    <div>Current Comments:</div>
+    <ul id='comments-list'>
+    </ul>
+  </div>
+</body>
+<script>
+$(document).ready(function() {
+  $('#get-comments').on("click",function(e) {
+ 
+    var api = "http://52.11.39.168/comment";
+    $.ajax({
+      type: "GET",
+      url: api
+    })
+    .done(function(data) {
+      console.log(data);
+      var comments = JSON.parse(data);
+      console.log(comments);
+      $("#comments-list").html("");
+      for(var i=0; i < comments.length; i++) {
+        console.log(comments[i]);
+        $("#comments-list").append("<li>Name: " + comments[i]["Name"]
+                                 + "<br>Comment:"+comments[i]["Comment"] 
+                                 +"</li>");
+      }
+    })	
+    .fail(function(data,err) {
+      alert("Something went wrong!");
+    })   
+  });
+  $("#comment-submit").on("click",function(e) {
+    e.preventDefault();
+    var data = {
+                 Name: $("#comment-name").val(),
+                 Comment: $("#comment-comment").val()
+               };
+
+    var jsonData = JSON.stringify(data);
+    $("#json-to-send").text(jsonData);
+
+    var api = "http://52.11.39.168/comment";
+    $.ajax({
+      dataType: "json",
+      contentType: "application/json; charset=utf-8",
+      type: "POST",
+      url: api,
+      data: jsonData,
+      success: function() {
+        $("#done").html("Success");
+      },
+      error: function() {
+        $("#done").html("Comment failed to save!");
+      }
+    });
+//    .done(function(data) {
+//      console.log(data);
+//    })	
+//    .fail(function(data,err) {
+//      alert("Something went wrong!");
+//    });
+
+
+//    $.post(api,jsonData,function(data) {
+//      console.log(data);
+//    },"json");
+  });
+});
+</script>
+</html>

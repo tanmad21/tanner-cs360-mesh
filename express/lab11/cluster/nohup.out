@@ -1,0 +1,228 @@
+numCPUs 1
+Worker 8537
+Worker 8538
+Worker 8539
+Worker 8540
+ID 8539
+[0mGET / [32m200 [0m17.104 ms - 617[0m
+[0mGET /javascripts/angularApp.js [36m304 [0m5.084 ms - -[0m
+ID 8539
+[0mGET / [36m304 [0m3.420 ms - -[0m
+[0mGET /javascripts/angularApp.js [36m304 [0m1.165 ms - -[0m
+numCPUs 1
+Worker 8548
+Worker 8550
+Worker 8549
+Worker 8551
+ID 8549
+[0mGET / [32m200 [0m18.081 ms - 617[0m
+[0mGET /javascripts/angularApp.js [32m200 [0m6.628 ms - 515[0m
+[0mGET /favicon.ico [33m404 [0m6.034 ms - 988[0m
+Service ID 8549
+[0mGET /pid [32m200 [0m2.089 ms - 30[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.096 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.621 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.486 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.583 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.971 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.466 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.136 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.710 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.621 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.733 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.953 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.476 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.823 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.389 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.335 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.490 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.498 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.432 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.508 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.510 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.458 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.512 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.831 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.487 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.565 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.621 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.224 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m2.230 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.767 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.618 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.456 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.445 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.476 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.620 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.485 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.449 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.464 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.479 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.510 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.743 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m3.418 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.542 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.481 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.577 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m2.277 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.545 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.446 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.436 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.498 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.480 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.551 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.417 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.497 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.536 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.511 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.502 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.573 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.978 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.586 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.461 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.719 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.740 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.873 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.490 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.458 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.445 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.512 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.769 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.749 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.731 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.539 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.447 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.511 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.685 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m1.268 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.451 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.563 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.689 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.442 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.480 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.414 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.539 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.534 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.620 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.490 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.666 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.557 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.429 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.431 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.440 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.463 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.715 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.849 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.790 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m2.217 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.596 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.518 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.535 ms - -[0m
+Service ID 8549
+[0mGET /pid [36m304 [0m0.399 ms - -[0m
+ID 8549
+[0mGET / [32m200 [0m1.749 ms - 617[0m
+[0mGET /javascripts/angularApp.js [32m200 [0m2.362 ms - 515[0m
+[0mGET /favicon.ico [33m404 [0m1.965 ms - 988[0m
+ID 8549
+[0mGET / [32m200 [0m1.592 ms - 617[0m
+[0mGET /javascripts/angularApp.js [32m200 [0m0.860 ms - 515[0m
+[0mGET /favicon.ico [33m404 [0m1.443 ms - 988[0m
